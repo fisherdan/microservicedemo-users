@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  mytestcoreapi:
+    image: mytestcoreapi
+    build:
+      context: .
+      dockerfile: MyTestCoreApi/Dockerfile
